@@ -1,0 +1,97 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "Name": "minecraft:stone"
+                    },
+                    "place_on": [
+                      {
+                        "Name": "minecraft:bedrock"
+                      }
+                      
+                    ],
+                    "place_in": [
+                      {
+                        "Properties": {
+                          "level": "0"
+                        },
+                          "Name": "minecraft:water"
+                      }
+                    ],
+                    "place_under": [
+                      {
+                        "Properties": {
+                          "level": "0"
+                        },
+                          "Name": "minecraft:water"
+                      },
+                      {
+                        "Name": "minecraft:stone"
+                      },
+                      {
+                        "Name": "minecraft:gravel"
+                      },
+                      {
+                        "Name": "minecraft:dirt"
+                      },
+                      {
+                        "Name": "minecraft:bedrock"
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 0,
+                    "top_offset": 0,
+                    "maximum": 5
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "outer": {
+                  "config": {},
+                  "type": "minecraft:square"
+                },
+                "inner": {
+                  "config": {},
+                  "type": "minecraft:heightmap_spread_double"
+                }
+              },
+              "type": "minecraft:decorated"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "count": 128,
+            "extra_chance": 1.0,
+            "extra_count": 128
+          },
+          "type": "minecraft:count_extra"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 50
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

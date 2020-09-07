@@ -1,0 +1,64 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "target": {
+                      "Properties": {
+                        "level": "0"
+                      },
+                      "Name": "minecraft:lava"
+                    },
+                    "state": {
+                      "Name": "minecraft:stone"
+                    },
+                    "radius": {
+                      "base": 3,
+                      "spread": 2
+                    }
+                  },
+                  "type": "minecraft:netherrack_replace_blobs"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 0,
+                    "top_offset": 0,
+                    "maximum": 52
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "count": 128,
+            "extra_chance": 1.0,
+            "extra_count": 128
+          },
+          "type": "minecraft:count_extra"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 50
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}
