@@ -80,6 +80,12 @@
       }
     ],
     "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
     ],
     "water_creature": [],
     "water_ambient": [],

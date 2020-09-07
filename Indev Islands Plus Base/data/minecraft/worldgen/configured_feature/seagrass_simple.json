@@ -1,0 +1,84 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "Name": "minecraft:seagrass"
+                    },
+                    "place_on": [
+                      {
+                        "Name": "minecraft:dirt"
+                      }
+                    ],
+                    "place_in": [
+                      {
+                        "Properties": {
+                          "level": "0"
+                        },
+                          "Name": "minecraft:water"
+                      }
+                    ],
+                    "place_under": [
+                      {
+                        "Properties": {
+                          "level": "0"
+                        },
+                          "Name": "minecraft:water"
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "decorator": {
+                  "config": {
+                    "bottom_offset": 55,
+                    "top_offset": 0,
+                    "maximum": 10
+                  },
+                  "type": "minecraft:range"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "outer": {
+                  "config": {},
+                  "type": "minecraft:square"
+                },
+                "inner": {
+                  "config": {},
+                  "type": "minecraft:heightmap_spread_double"
+                }
+              },
+              "type": "minecraft:decorated"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "count": 30,
+            "extra_chance": 0.1,
+            "extra_count": 10
+          },
+          "type": "minecraft:count_extra"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 20
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}
