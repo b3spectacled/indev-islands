@@ -1,0 +1,49 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": 0,
+  "sea_level": 64,
+  "disable_mob_generation": false,
+  "structures": {
+    "stronghold": {
+      "distance": 32,
+      "spread": 3,
+      "count": 128
+    },
+    "structures": {}
+  },
+  "noise": {
+    "random_density_offset": true,
+    "density_factor": 0.0,
+    "density_offset": 0.0,
+    "simplex_surface_noise": true,
+    "island_noise_override": true,
+    "bottom_slide": {
+      "target": 30,
+      "size": 0,
+      "offset": 0
+    },
+    "size_horizontal": 1,
+    "size_vertical": 2,
+    "height": 128,
+    "sampling": {
+      "xz_scale": 2.0,
+      "y_scale": 8.0,
+      "xz_factor": 80.0,
+      "y_factor": 40.0
+    },
+    "top_slide": {
+      "target": -15,
+      "size": 2,
+      "offset": 7
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:lava"
+  }
+}

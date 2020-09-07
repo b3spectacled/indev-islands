@@ -1,0 +1,2 @@
+setblock ~ ~-1 ~ minecraft:structure_block[mode="load"]{name:"minecraft:indev_house",ignoreEntities:0b,mode:"LOAD",rotation:CLOCKWISE_90, posX:3, posZ:-3}
+execute if block ~ ~-1 ~ structure_block run setblock ~-1 ~-1 ~ minecraft:redstone_block
